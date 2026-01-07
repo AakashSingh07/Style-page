@@ -1,50 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
+
     <div id="layout">
-        <div id="root">
-        <aside>
-            <h2 id="pink">EdTeck Platform</h2><hr>
+
+      
+        <aside class="sidebar">
+            <h2 id="pink">EdTeck Platform</h2>
+            <hr class="hr">
+
             <ul>
-                <a href="#">Dashboard</a>
-                <a href="#">courses</a>
-                <a href="#">Batches</a>
-                <a href="#">Live Classes</a>
+                <li><a href="#">⬛ Dashboard</a></li>
+                <li><a href="#">📘 Courses</a></li>
+                <li><a href="#">👥 Batches</a></li>
+                <li><a href="#">🎥 Live Classes</a></li>
             </ul>
+
+            <div class="user-section">
+                <p class="user-name">Ram</p>
+                <p class="user-role">Student</p>
+
+                <button class="logout-btn">Logout</button>
+            </div>
         </aside>
+
+
+  
+        <main class="content">
+
+            <header class="header">
+                <div class="header-text">
+                    <h1>Welcome back, <span id="span">Ram</span></h1>
+                    <p>Ready to learn something new today? Here is your daily digest.</p>
+                </div>
+
+                <button>Browse Courses</button>
+            </header>
+
+
+            <section class="cards">
+                <div class="box">
+                    <div>
+                        <p class="info">ENROLLED COURSES</p>
+                        <h2 class="no">1</h2>
+                        <span class="perc"><a class="a">+0%</a> from last month</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="info">UPCOMING CLASSES</p>
+                    <h2 class="no">0</h2>
+                    <span class="perc"><a class="a">+0%</a> from last month</span>
+                </div>
+                <div class="box">
+                    <p class="info">PENDING ASSIGNMENTS</p>
+                    <h2 class="no">0</h2>
+                    <span class="perc"><a class="a">+0%</a> from last month</span>
+                </div>
+            </section>
+
+            <section class="cards2">
+                <div class="boxss">
+                    <h2 class="infoma">MyCourses</h2>
+                    <p class="nu">Continue where you left off</p>
+                    <div class="course">
+                        <img src="react js.avif" alt="React JS">
+                        <p class="course-title">React js</p>
+                        <span class="status">Enrolled</span>
+                    </div>
+
+
+                </div>
+                <div class="boxss">
+                    <h2 class="infoma">Live Sessions</h2>
+
+                    <p class="nu">Upcoming schedule</p>
+                    <div class="live-empty">
+                        <div class="live-icon">🎥</div>
+                        <p class="live-title">No upcoming sessions</p>
+                        <p class="live-text">Your schedule is clear for now.</p>
+                    </div>
+
+                </div>
+            </section>
+            
+            
+     
+
+       <!-- <footer class="footer"></footer> -->
+
+
+
+            
+   </main>
         
-<header>
-    <div id="header">
-            <h1>Welcome back,<span>Ram</span></h1>
-            
-            <button>Browse Coures</button>
-            </div>
-
-            <p>       Ready to learn something new today? Here is your daily digest. </p>
-</header>
-        <div class="cards">
-            <div id="bax1" class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-        </div>
-        <div class="cards2">
-            <div class="boxss"></div>
-            <div class="boxss"></div>
-            
-        </div>
-        <footer>
-            <div id="footer">
-
-            </div>
-        </div>
 
 
     </div>
+
 </body>
+
 </html>

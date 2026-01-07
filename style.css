@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+#layout {
+
+    background-color: #0B0F1A;
+    /* border: 1px solid red; */
+    height: 100vh;
+}
+
+aside {
+    width: 200px;
+    height: 100vh;
+    background-color: #050505;
+    float: left;
+    padding: 20px;
+    color:aliceblue
+}
+
+aside a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: rgb(98, 94, 94);
+}
+
+#header {
+    color: white;
+    height: 60px;
+    padding: 10px 20px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;  
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #222222;
+    margin: 10px 0;
+}
+
+#pink {
+    color: rgb(119, 36, 155);
+}
+
+span {
+    color: rgb(119, 36, 155);
+}   
+
+
+
+p {
+    color: gray;
+    margin-top: 5px;
+    padding-left: 20px;
+    /* background-color: #6a789c; */
+    margin-left: 100px;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    
+    margin-left: 220px;
+    margin-top: 20px;
+   
+}
+
+.box {
+    
+    border: 1px solid rgb(54, 45, 45);
+    background-color: #050505;
+     width: 1880px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+#bax1 {
+    margin-left: 20px;
+}   
+
+.cards2 {
+    display: flex;
+    gap: 40px;
+    
+    margin-left: 220px;
+    margin-top: 20px;
+   
+}
+
+.boxss {
+    border: 1px solid rgb(54, 45, 45);
+;
+    background-color: #050505;
+        width: 920px; 
+    height: 380px; 
+    border-radius: 20px;  
+}   
+
+#footer {
+    margin-top: 20px;
+    height: 60px;
+    background-color: #050505;
+    color: gray;
+    display: flex;
+
+    padding-bottom: 65px;
+
+}
+
+button {
+    background-color: rgb(254, 254, 254);
+    color: rgb(13, 11, 11);
+    margin-top: 10px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

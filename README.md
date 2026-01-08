@@ -1,4 +1,4 @@
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](home.png)
+![Homepage](Screenshot/home.png)
